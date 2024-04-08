@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #547da4;
+  font-family: 'Arial', sans-serif;
+}
+
+.main-title {
+  color: #530da9;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.interactive-text {
+  color: #222;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.interactive-text:hover {
+  color: #3498db;
+  transform: scale(1.05);
+}
